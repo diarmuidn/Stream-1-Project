@@ -1,0 +1,160 @@
+body { 
+    background-image: url(../img/Bentley.jpg);
+    text-shadow: 2px 2px 2px #000; 
+}
+/*
+body::after {
+  content: "";
+  background-image: url(../img/Bentley.jpg); 
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+*/
+
+/*
+html * {
+ color: white;
+ font-family: 'playfair display';
+ text-shadow: 4px 4px 4px #000;
+}
+*/
+
+.jumbotron h1{
+	color: white;
+}
+h2, h3, h4, h5, p {
+	font-family: 'playfair display';
+	color: #FFF;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.section-3 {
+	font-size: 25px;
+	font-family: PT Sans;
+	background:transparent;
+	padding-top: 30px;
+}
+.jumbotron {
+	font-size: 40px;
+	/* font-family: Impact, Charcoal, sans-serif;   */
+	background:transparent;   
+}
+.jumbotron p {
+	color: white;
+	font-size: 30px;
+}
+.container-images {
+	position: relative;
+	/*            border:1px solid white;*/
+	height: 200px;
+}
+#image-left {
+	position: absolute;
+	left:0;
+	width:200px;
+	border:1px solid #9799a7;
+	padding:4px;
+	border-radius: 50%;
+	height: 200px;
+	vertical-align: top;
+}
+#image-right {
+	position: absolute;
+	right:0;
+	width:200px;
+	border:1px solid #9799a7;
+	padding:4px;
+	border-radius: 50%;
+	height: 200px;
+	vertical-align: top;
+}
+
+#lean_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	background: #000;
+	display: none;
+}
+
+.btn{
+	padding:5px 15px; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+.column{
+	text-align: left;
+	width: 90%;
+	font-size: 25px;
+}
+
+.column>h3{
+	font-size: 30px;
+}
+
+element.style {
+	color:white
+	text-shadow: 2px 2px 2px #000;
+}	
+
+/*
+# {
+position: absolute;
+left:0;
+width:200px;
+border:1px solid #9799a7;
+padding:4px;
+border-radius: 50%;
+height: 200px;
+vertical-align: top;
+}
+*/
+
+#myModal{
+	color: blue !important;
+	background-image: url(../img/Bentley.jpg);
+}
+.form-group label{
+	color:white;
+	text-shadow: 2px 2px 2px #000; 
+}
+.modal-body p{
+	color:black;
+	font-size: 26px;
+	text-shadow: none;
+}
+h1 small{
+	color: white;
+}
+#myForm{P
+	color: black !important;
+}
+.Form-Control{
+	font-size: 20px;
+	text-shadow: none;
+}
+.modal-footer{
+	background-color: aliceblue;
+}
+.modal-content{
+	background-color: aliceblue;
+}
+.modal-title{
+	color: black;
+	font-size: 32px;
+	text-shadow: none;
+}
+.page-header{
+	color:white;
+}
